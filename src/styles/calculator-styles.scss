@@ -13,6 +13,11 @@
   text-align: right;
   margin-bottom: 20px;
   color: white;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+.display::-webkit-scrollbar {
+  display: none;
 }
 
 .buttons .row {

@@ -17,13 +17,12 @@ export default function Calculator() {
       setExpression("0");
     } else if (btn === "=") {
       try {
-        // Replace operators with JS equivalents
         let exp = expression
           .replace(/÷/g, "/")
           .replace(/×/g, "*")
           .replace(/−/g, "-");
 
-        const result = eval(exp); // careful in real-world apps
+        const result = eval(exp);
         setExpression(String(result));
       } catch {
         setExpression("Error");
