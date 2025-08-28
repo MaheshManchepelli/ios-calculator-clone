@@ -1,69 +1,63 @@
-# React + TypeScript + Vite
+🧮 Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly calculator application built to perform basic arithmetic operations. This project was created as a practice exercise to improve frontend development skills.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Addition, ➖ Subtraction, ✖️ Multiplication, ➗ Division
 
-## Expanding the ESLint configuration
+Displays full entered expression with operator (not just one number at a time)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Error handling for invalid inputs (e.g., division by zero)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Responsive and clean UI
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Frontend: Angular / React / JavaScript (update based on your app)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Styling: CSS / Tailwind (if used)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Other Tools: (add if you used Webpack, Vite, etc.)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🚀 Getting Started
+Prerequisites
+
+Node.js (>=16.x recommended)
+
+npm or yarn package manager
+
+Installation
+# Clone the repository
+git clone https://github.com/MaheshManchepelli/ios-calculator-clone.git
+
+# Navigate into the project folder
+cd calculator-app
+
+# Install dependencies
+npm install
+
+Run the App
+npm start
+
+
+Then open http://localhost:4200
+ (or 3000 if React) in your browser.
+
+📸 Screenshots
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/2d24eb37-0700-464e-955e-0d0b1d04aea3" />
+<img width="1061" height="900" alt="image" src="https://github.com/user-attachments/assets/47cc1a95-63ca-4715-a025-e01ac45b5170" />
+<img width="627" height="745" alt="image" src="https://github.com/user-attachments/assets/3cf74b4a-aa9d-4b9d-904e-ed9fe760a1f5" />
+
+
+🔮 Future Improvements
+
+Add scientific functions (square root, power, log, sin, cos, etc.)
+
+Dark/Light mode toggle
+
+Calculation history panel
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
