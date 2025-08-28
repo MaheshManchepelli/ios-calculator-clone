@@ -14,11 +14,11 @@ Responsive and clean UI
 
 🛠️ Tech Stack
 
-Frontend: Angular / React / JavaScript (update based on your app)
+Frontend: React - Typescript
 
-Styling: CSS / Tailwind (if used)
+Styling: CSS 
 
-Other Tools: (add if you used Webpack, Vite, etc.)
+Other Tools: Vite
 
 🚀 Getting Started
 Prerequisites
